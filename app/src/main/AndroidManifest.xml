@@ -45,9 +45,7 @@
         <activity
             android:name=".ThingspeakActivity"
             android:exported="false" />
-        <activity
-            android:name=".DevikaActivity"
-            android:exported="false" />
+
         <activity
             android:name=".ReportprevActivity"
             android:exported="false" />
