@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "553656975182",
+    "project_id": "puresip-94163",
+    "storage_bucket": "puresip-94163.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:553656975182:android:eaa55c2fab9c773bf4281f",
+        "android_client_info": {
+          "package_name": "com.example.puresip_new"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "553656975182-7kpljdre536sugeei4u5omd24gterodj.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.puresip_new",
+            "certificate_hash": "42255a5ed8f940cf292d68de26f39d605435291d"
+          }
+        },
+        {
+          "client_id": "553656975182-qc8q8sarg5htdqljbju1j2ha98bu92of.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBuHiydKw_McdybMSy4CzaUU6voZ9f_6D0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "553656975182-qc8q8sarg5htdqljbju1j2ha98bu92of.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

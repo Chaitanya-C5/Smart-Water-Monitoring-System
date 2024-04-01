@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp">
+
+        <ImageView
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/applogo"
+            android:id="@+id/nlogo"
+            />
+
+        <TextView
+            android:id="@+id/ntitle"
+            android:fontFamily="@font/poppinsmedium"
+            android:textSize="20sp"
+            android:layout_toRightOf="@+id/nlogo"
+            android:textStyle="bold"
+            android:textColor="@color/white"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Title"/>
+
+        <TextView
+            android:id="@+id/ndesc"
+            android:fontFamily="@font/poppinsmedium"
+            android:textColor="@color/white"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/nlogo"
+            android:layout_below="@+id/ntitle"
+            android:layout_marginLeft="10dp"
+            android:textSize="20sp"
+            android:text="This is the message"
+            />
+
+    </RelativeLayout>
+
+</RelativeLayout>

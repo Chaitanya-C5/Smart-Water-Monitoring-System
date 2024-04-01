@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GlidetestActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitXY"
+            android:src="@drawable/bgtmp" />
+
+        <TableLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp">
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                >
+
+                <Button
+                    android:id="@+id/phBtn"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Ph"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#213967"
+                    android:textStyle="bold"
+                    android:layout_column="1"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/tempBtn"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Temperature"
+                    android:backgroundTint="#213967"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_column="2"
+                    android:background="@drawable/button_shape"
+                    />
+
+            </TableRow>
+
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                >
+                <Button
+                    android:id="@+id/turbBtn"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Turbidity"
+                    android:textColor="@color/white"
+                    android:backgroundTint="#213967"
+                    android:textStyle="bold"
+                    android:layout_column="1"
+                    android:background="@drawable/button_shape"
+                    android:layout_marginRight="10dp"
+                    />
+
+                <Button
+                    android:id="@+id/purBtn"
+                    android:layout_width="160dp"
+                    android:layout_height="wrap_content"
+                    android:text="Purity"
+                    android:backgroundTint="#213967"
+                    android:textColor="#FFFFFF"
+                    android:textStyle="bold"
+                    android:layout_column="2"
+                    android:background="@drawable/button_shape"
+                    />
+            </TableRow>
+        </TableLayout>
+
+        <WebView
+            android:id="@+id/webView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="400dp"
+            android:layout_marginRight="8dp"/>
+
+    </RelativeLayout>
+</ScrollView>
+</layout>
